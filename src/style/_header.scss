@@ -10,7 +10,11 @@
       display: flex;
       > li {
         margin-right: 10px;
+        &:first-child {
+          @include btn-variant(#00bfff, #16212b, #00bfff);
+        }
         &:last-child {
+          @include btn-variant(white, #00bfff, #00bfff);
           margin-right: 0;
         }
       }

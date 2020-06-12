@@ -44,3 +44,11 @@ h1 {
   color: $heading-color;
   margin: 0;
 }
+
+$headings: 1, 2, 3, 4, 5, 6;
+@each $index in $headings {
+  h#{$index} {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
