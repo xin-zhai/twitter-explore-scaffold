@@ -36,11 +36,11 @@ a {
 button {
   &:nth-of-type(1) {
     @include btn-variant(#00bfff, #16212b, #00bfff);
-    padding: 6px 140px;
+    padding: $form-btn-padding-y $form-btn-padding-x;
   }
   &:nth-of-type(2) {
     @include btn-variant(white, #00bfff, #00bfff);
-    padding: 6px 140px;
+    padding: $form-btn-padding-y $form-btn-padding-x;
   }
 }
 
